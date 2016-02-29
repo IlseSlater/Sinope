@@ -191,13 +191,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="index.html" />
     <Content Include="public\img\banner-bg.jpg" />
     <Content Include="public\img\dog.png" />
     <Content Include="public\img\intro-bg.jpg" />
     <Content Include="public\img\ipad.png" />
     <Content Include="public\img\phones.png" />
     <Content Include="public\img\Sinope_Header.png" />
+    <Content Include="public\img\Sinope_logo.png" />
+    <Content Include="public\img\Sinope_logo_word.png" />
+    <Content Include="public\img\Sinope_logo_word_white.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="font-awesome\fonts\fontawesome-webfont.eot" />
