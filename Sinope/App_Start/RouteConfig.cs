@@ -12,6 +12,16 @@ namespace Sinope
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.MapRoute(
+                name: "Manage_Incident",
+                url: "Manage_Incident",
+                defaults: new { controller = "ManageIncident", action = "Create_Incident", id = UrlParameter.Optional }
+            );
+            routes.MapRoute(
+                name: "Home",
+                url: "",
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
 
             routes.MapRoute(
                 name: "Default",
